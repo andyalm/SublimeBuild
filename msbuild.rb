@@ -3,7 +3,7 @@ file = ARGV[0]
 @windows_directory = ENV['SystemRoot']
 
 def execute_msbuild(build_file)
-  logger = File.join @script_directory, "SublimeLogger\\bin\\Debug\\SublimeLogger.dll"
+  logger = File.join @script_directory, 'SublimeLogger', 'bin', 'Debug', 'SublimeLogger.dll'
   msbuild = File.join @windows_directory, 'Microsoft.NET', 'Framework', 'v4.0.30319', 'MSBuild.exe'
   puts "Building '#{build_file}'..."
   puts
