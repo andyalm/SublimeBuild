@@ -1,0 +1,3 @@
+[submodule "SublimeLogger"]
+	path = SublimeLogger
+	url = git://github.com/wpoch/SublimeLogger.git
